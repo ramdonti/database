@@ -4,7 +4,7 @@
 
 MySQL HeatWave Machine Learning can easily be used for development tasks with existing Oracle services. New applications can also be created with the LAMP or other software stacks.
 
-_Estimated Lab Time:_ 30 minutes
+_Estimated Time:_ 30 minutes
 
 ### Objectives
 
@@ -166,7 +166,7 @@ Estimated Time: 5 minutes
     echo 'Host info: ' . mysqli_get_host_info($link);
     ?>
     </copy>
-        ```
+    ```
 
 4. From your local machine, browse the page info.php
 
@@ -195,6 +195,10 @@ Estimated Time: 5 minutes
     ```
 
     Replace the database IP in config.php file with your heatwave database IP and save the file.
+
+    ```bash
+    <copy>sudo nano config.php</copy>
+    ```
 
     run the application as follows:
 
